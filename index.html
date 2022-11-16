@@ -4,7 +4,39 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
+  <title>Lista de tarefas</title>
+  <style>
+    body{
+      background-color: #252525;
+      color: lightcoral;
+
+    }
+    ul{
+      list-style: none;
+      margin: 0;
+      padding: 0; 
+    }
+    li{
+      margin-bottom: .5em;
+      margin-top: .5em;
+      padding: 1em;
+      border: 1px solid white;
+      transition-property: background-color,color;
+      transition-duration: 500ms;
+      transition-timing-function: ease-in-out;
+    }
+    li:hover{
+      background-color: cyan;
+      color: #252525;
+    }
+    #new-todo form{
+      margin-bottom: .5em;
+      margin-top: .5em;
+      padding: 1em;
+    }
+
+
+  </style>
 </head>
 <body>
   
