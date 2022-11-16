@@ -9,7 +9,6 @@
     body{
       background-color: #252525;
       color: lightcoral;
-
     }
     ul{
       list-style: none;
@@ -33,12 +32,27 @@
       margin-bottom: .5em;
       margin-top: .5em;
       padding: 1em;
+      border: 1px solid cyan;
     }
-
 
   </style>
 </head>
-<body>
-  
-</body>
+  <body>
+    <div id="new-todos">
+      <h1>Nova tarefa</h1>
+      <form>
+        <label>Titulo da tarefa
+        <input type="text" id="new-todos__title" />
+        </label>
+        <button type="submit">adiconar</button>
+      </form>
+    </div>
+    <div>
+      <h1>Tarefas cadastradas</h1>
+      <ul>
+
+      </ul>
+    </div>
+    <script src = index.js></script>
+  </body>
 </html>
